@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Tracker</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>Job Tracker</h1>
+        </div>
+        <div class="topControls">
+          <div class="actions">
+            <button id="fullScanBtn" type="button">Full scan next run</button>
+            <button id="saveBtn" type="button">Save now</button>
+            <button id="exportBtn" type="button">Sync Excel now</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="metrics" aria-label="Tracker summary">
+        <div class="metric">
+          <span>Total</span>
+          <strong id="totalCount">0</strong>
+        </div>
+        <div class="metric">
+          <span>High Priority</span>
+          <strong id="openActions">0</strong>
+        </div>
+        <div class="metric">
+          <span>Tracking</span>
+          <strong id="trackedCount">0</strong>
+        </div>
+        <div class="metric">
+          <span>Trash</span>
+          <strong id="trashCount">0</strong>
+        </div>
+        <div class="metric">
+          <span>Rejected</span>
+          <strong id="rejectedCount">0</strong>
+        </div>
+        <div class="metric">
+          <span>Next scan</span>
+          <strong id="scanMode">Incremental</strong>
+        </div>
+        <div class="metric">
+          <span>Sync</span>
+          <strong id="saveState">Loading</strong>
+        </div>
+        <div class="metric lastUpdatedMetric">
+          <span>Last updated</span>
+          <strong id="lastUpdatedAt">-</strong>
+        </div>
+      </section>
+
+      <nav class="tabs" aria-label="Tracker views">
+        <button class="tab active" data-tab="needs" type="button">High Priority</button>
+        <button class="tab" data-tab="apps" type="button">Application Tracker</button>
+        <button class="tab" data-tab="trash" type="button">Trash</button>
+      </nav>
+
+      <section class="toolbar">
+        <input id="searchInput" type="search" placeholder="Search company, role, notes">
+        <div class="menuWrap">
+          <button id="statusFilterBtn" class="menuButton" type="button" aria-expanded="false">Status</button>
+          <div id="statusMenu" class="popover" hidden></div>
+        </div>
+        <div class="menuWrap">
+          <button id="dateFilterBtn" class="menuButton" type="button" aria-expanded="false">Date</button>
+          <div id="dateMenu" class="popover" hidden>
+            <button type="button" data-date-preset="all">All time</button>
+            <button type="button" data-date-preset="today">Today</button>
+            <button type="button" data-date-preset="7">Last 7 days</button>
+            <button type="button" data-date-preset="30">Last 30 days</button>
+            <button type="button" data-date-preset="custom">Custom range</button>
+            <div id="customDatePanel" class="customDatePanel" hidden>
+              <label>From <input id="dateFromFilter" type="date"></label>
+              <label>To <input id="dateToFilter" type="date"></label>
+              <div class="popoverActions">
+                <button id="applyDateRangeBtn" type="button">Apply</button>
+                <button id="clearDateRangeBtn" type="button">Clear</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menuWrap">
+          <button id="sortBtn" class="menuButton sortButton" type="button" aria-expanded="false">Newest first (default)</button>
+          <div id="sortMenu" class="popover" hidden></div>
+        </div>
+        <button id="clearFiltersBtn" type="button" hidden>Clear</button>
+        <button id="addRowBtn" type="button">Add row</button>
+        <button id="selectVisibleBtn" type="button">Select filtered</button>
+        <div id="bulkBar" class="bulkBar" hidden>
+          <span id="selectedCountLabel">0 selected</span>
+          <div class="menuWrap">
+            <button id="moveToBtn" class="menuButton" type="button" aria-expanded="false">Move To</button>
+            <div id="moveToMenu" class="popover" hidden></div>
+          </div>
+          <button id="clearSelectionBtn" type="button">Clear selection</button>
+        </div>
+        <span id="filterCount" class="filterCount">0 shown</span>
+      </section>
+
+      <section class="tableShell">
+        <table id="trackerTable"></table>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
