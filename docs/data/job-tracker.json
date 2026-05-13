@@ -1,0 +1,1838 @@
+{
+  "meta": {
+    "projectName": "Job Search",
+    "version": 1,
+    "scanWindowStart": "2026-04-01",
+    "reportDate": "2026-05-12",
+    "lastUpdated": "2026-05-13",
+    "statusColors": {
+      "Assessment / interview": "amber",
+      "Reply needed": "blue",
+      "Rejected": "red",
+      "Applied / waiting": "green"
+    },
+    "lastSuccessfulScanAt": "2026-05-13T00:02:07.071Z",
+    "incrementalScanOverlapDays": 3,
+    "revision": 26,
+    "nextScanMode": "incremental",
+    "fullScanRequestedAt": "",
+    "lastUpdatedAt": "2026-05-13T00:02:19.180Z"
+  },
+  "needsAttention": [],
+  "applications": [
+    {
+      "id": "app-1778630527070-f072edfaf128d",
+      "company": "Albert Bow",
+      "role": "Software Engineer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "New York City Metropolitan Area (Hybrid) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18df357338301"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-b561c1c010d51",
+      "company": "Beacon",
+      "role": "Software Engineer, Healthtech",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Dallas-Fort Worth Metroplex (Hybrid) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18e0a226fbb12"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-b86bbef935c51",
+      "company": "Qualis1 Inc.",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Irving, TX (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18e0c8ec58d16"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-ed023f2a845b",
+      "company": "Salt",
+      "role": "Backend Software Engineer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "United States (Remote) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18e1bf8ccfefe"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-29f3011ae9a818",
+      "company": "Collabera",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation identified the role as Python Developer.",
+      "emailIds": [
+        "19e18e4320c5c77b"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-51b32f995367b8",
+      "company": "Infosoft, Inc.",
+      "role": "Full Stack Python Developer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation identified the role as Full Stack Python Developer.",
+      "emailIds": [
+        "19e18e580e78e6d4"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-f534a8d8408f08",
+      "company": "Emonics LLC",
+      "role": "Junior Python Developer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Chicago, IL (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18e6050136ef7"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-682e7a2eac61f",
+      "company": "Central Point Partners",
+      "role": "Python/SQL Developer (Entry-Level)",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Columbus, Ohio Metropolitan Area (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18e7b81c85c15"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-f13ad9e3105e9",
+      "company": "Agentio",
+      "role": "Software Engineer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "New York, NY (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18ef89e149a16"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527070-8e42acb71a6328",
+      "company": "Triangulum Venture Labs",
+      "role": "Software Engineer",
+      "appliedDate": "2026-05-11",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Washington, United States (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e18f4d442b4a08"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778630527069-8ef05a647ac25",
+      "company": "AlphaLife Sciences",
+      "role": "Software Engineer - New Grad or Early Career",
+      "appliedDate": "2026-05-12",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-12",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "New Jersey, United States (Hybrid) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e1de14b5bc714e"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778439879643-544fe60acfd238",
+      "company": "Amazon",
+      "role": "Software Development Engineer, AWS Data Services - 2026 (US) (ID: 10414316)",
+      "appliedDate": "2026-05-08",
+      "status": "Reply needed",
+      "latestDate": "2026-05-12",
+      "source": "Amazon Jobs",
+      "latestUpdate": "Amazon invited you to complete the online assessment and sent a reminder that the application will not be considered until the assessment is finished.",
+      "notes": "No separate Amazon 'Thank you for Applying' confirmation was found for ID 10414316, so this is being treated as a draft/incomplete application reminder. Follow-up reminder received on 2026-05-11 for the same incomplete Amazon application. Amazon assessment invite arrived on 2026-05-11 and reminder arrived on 2026-05-12; the assessment link says to complete it within about one week.",
+      "emailIds": [
+        "19e091d7c6575434",
+        "19e1890949800f6e",
+        "19e19645570b6a31",
+        "19e1e8aaf8e48d7a"
+      ],
+      "recordType": "application",
+      "isHighPriority": true,
+      "done": false,
+      "actionNeeded": "Complete the Amazon assessment and finish the application for ID 10414316 if still interested.",
+      "dueDate": "2026-05-18",
+      "highPriorityDate": "2026-05-12",
+      "highPriorityStatus": "Reply needed",
+      "highPriorityNotes": "Amazon says the application will not be considered until the assessment is completed."
+    },
+    {
+      "id": "app-1778359817694-d01d0784e1efc",
+      "company": "Nova Infotek",
+      "role": "Entry-Level Software Developer",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Baltimore, MD (Remote) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e090dd6e832240"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817694-b55d5d341ee27",
+      "company": "DataCapable",
+      "role": "Software Engineer",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Chicago, IL (Remote) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e0910ac8578a0d"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817694-a730a44b61e89",
+      "company": "Mindlance",
+      "role": "Full Stack Engineer+ Agentic AI",
+      "appliedDate": "2026-05-09",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-09",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "United States (Remote) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e0e79347f456b4"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817694-88629fc486a468",
+      "company": "Stealth Startup",
+      "role": "Backend Developer [32892]",
+      "appliedDate": "2026-05-09",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-09",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Denver, CO (Remote) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e0e78317f55a6b"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817694-0ae28ea45dea78",
+      "company": "BeaconFire Inc.",
+      "role": "Entry Level- Software Engineer",
+      "appliedDate": "2026-05-09",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-09",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "New Jersey, United States (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e0e797f19eb8ab"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817694-60c376461815b",
+      "company": "BeaconFire Inc.",
+      "role": "Python Backend Engineer (RAG / AI Focus)",
+      "appliedDate": "2026-05-09",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-09",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "New Jersey, United States (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e0e7b3b0b799da"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817693-380f21a3356fc8",
+      "company": "Great Value Hiring",
+      "role": "Backend Engineer",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "LinkedIn / CEIPAL",
+      "latestUpdate": "Application sent; CEIPAL follow-up invited the Micro1 backend engineer opportunity.",
+      "notes": "LinkedIn says applied on 2026-05-08. CEIPAL email from Nitin references Micro1, $60-$120/hour, remote and flexible.",
+      "emailIds": [
+        "19e090c45d815476",
+        "19e090c435bd5b55"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817693-7bc07cd512fdd8",
+      "company": "Bayview Asset Management, LLC",
+      "role": "Backend Engineer",
+      "appliedDate": "2026-05-09",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-09",
+      "source": "Bayview / iCIMS",
+      "latestUpdate": "Application received; saved iCIMS form packet can be completed later.",
+      "notes": "Confirmation references NEW YORK-NY [OFFICE]. Follow-up saved-form email included login name rohanhasab208322.",
+      "emailIds": [
+        "19e0e744d89a70f2",
+        "19e0e73cfd4ceb13"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778359817693-831c94fc7ba9c8",
+      "company": "Amazon",
+      "role": "Software Development Engineer - 2026 (US) (ID: 3177934)",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "Amazon Jobs",
+      "latestUpdate": "Application received; Amazon application dashboard is available.",
+      "notes": "Amazon confirmation says updates will appear on the candidate dashboard.",
+      "emailIds": [
+        "19e092d821ec12ee",
+        "19e0921310043dc2"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-4e23b18674c33",
+      "company": "Indotronix Avani Group",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "United States (Remote) per LinkedIn confirmation.",
+      "emailIds": [
+        "19e04c6d50b32ca2"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-37c77a26c9d04",
+      "company": "Northwood Space",
+      "role": "Software Engineer - General (early)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "Ashby",
+      "latestUpdate": "Application received.",
+      "notes": "Ashby confirmation says Northwood Space will review and reach out if background aligns.",
+      "emailIds": [
+        "19e04cabaf9544cd"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-9e7d6cc28e2b8",
+      "company": "Deloitte",
+      "role": "Deloitte Technology - US Associate GenAI Engineer",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "Deloitte / Avature",
+      "latestUpdate": "Application submitted.",
+      "notes": "Req 340568. Deloitte careers confirmation included portal/profile access links.",
+      "emailIds": [
+        "19e04dbd87e7175a"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-797ad23b919dc8",
+      "company": "Tata Consultancy Services",
+      "role": "AI Engineer",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "Handshake",
+      "latestUpdate": "Application sent.",
+      "notes": "$80-90K/yr, Full-Time, Bloomfield CT (Onsite) per Handshake confirmation.",
+      "emailIds": [
+        "19e04e33511297d6"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-8640d4bbe08348",
+      "company": "Irenix Empowerment Foundation",
+      "role": "Software Engineering Intern",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "Handshake",
+      "latestUpdate": "Application sent.",
+      "notes": "Internship, Remote per Handshake confirmation.",
+      "emailIds": [
+        "19e04f64b16f3284"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-e2f2fa1e67452",
+      "company": "Tata Consultancy Services",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn / Handshake",
+      "latestUpdate": "Another application confirmation arrived for the Python Developer role via LinkedIn.",
+      "notes": "$60-70K/yr, Full-Time, Louisville KY (Onsite) per Handshake confirmation. LinkedIn confirmation says Pennington, NJ (On-site) and applied on 2026-05-11.",
+      "emailIds": [
+        "19e04f6e69dbc0f2",
+        "19e18f637c54309a"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778267559211-394202e1dc7748",
+      "company": "Capgemini America Inc.",
+      "role": "Junior Software Developer",
+      "appliedDate": "2026-05-08",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-08",
+      "source": "Handshake",
+      "latestUpdate": "Application sent.",
+      "notes": "$60-65K/yr, Full-Time, Charlotte NC +1 (Hybrid) per Handshake confirmation.",
+      "emailIds": [
+        "19e0600b0045be8c"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778196228675-8af7cff7408ea",
+      "company": "Node8",
+      "role": "AI Automation Engineer",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "Handshake",
+      "latestUpdate": "Application sent.",
+      "notes": "$10-15/hr internship remote per Handshake confirmation.",
+      "emailIds": [
+        "19e0466aa3daac78"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778196228674-3934d9c0f76c28",
+      "company": "Clinpharma Clinical Research, LLC",
+      "role": "AI Engineer",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "Handshake",
+      "latestUpdate": "Application sent.",
+      "notes": "$25-45/hr, Full-Time, Piscataway NJ + remote per Handshake confirmation.",
+      "emailIds": [
+        "19e04bd38447a2f5"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778187115964-fareharbor",
+      "company": "FareHarbor",
+      "role": "Full Stack Engineer - Python & JavaScript",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "recordType": "application",
+      "latestDate": "2026-05-07",
+      "source": "Greenhouse",
+      "latestUpdate": "Application received.",
+      "notes": "Greenhouse security code email was followed by successful application confirmation.",
+      "emailIds": [
+        "19e040724fd31764",
+        "19e0409aa7dfc110"
+      ]
+    },
+    {
+      "id": "app-1778186378913-f99ddee3af514",
+      "company": "Maganti IT Resources, LLC",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e03eea90df14e0"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-b1470552084138",
+      "company": "Genpact",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e03f1239f46498"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-390d37199a705",
+      "company": "Dexian",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e03f20ac963a8c"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-214e1efb7d9a3",
+      "company": "Anagh Technologies Inc",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e04032b69000b2"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-c87eb69d190c98",
+      "company": "Tech Consulting",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e0404df9e60e89"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-cca745ec1fc2d",
+      "company": "JPC TECHNO INC",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Another LinkedIn confirmation arrived and identified the role as Python Developer.",
+      "notes": "LinkedIn confirmation email did not include the role title. Latest LinkedIn confirmation says the role is Python Developer in Phoenix, AZ (On-site) and was applied on 2026-05-11.",
+      "emailIds": [
+        "19e040592df18db1",
+        "19e18f3bdf917095"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-4a553674eb765",
+      "company": "Eos Talent",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e041a93c389658"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-70fd8fb57f3ab",
+      "company": "Stealth Startup",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e041af7fb6fb4e",
+        "19e0403a72122390"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-00dd3ae5bd815",
+      "company": "Signature IT World Inc",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e041c4be910ba1"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-aa9f7d28ad8348",
+      "company": "Optomi",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "LinkedIn confirmation email did not include the role title.",
+      "emailIds": [
+        "19e041d097483139"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778186378913-d89cbe4f39fb3",
+      "company": "Stealth AI Startup",
+      "role": "Role not specified (LinkedIn confirmation)",
+      "appliedDate": "2026-05-07",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Another LinkedIn confirmation arrived and identified the role as Back End Developer [32740].",
+      "notes": "LinkedIn confirmation email did not include the role title. Latest LinkedIn confirmation says Back End Developer [32740], San Francisco Bay Area (Remote), applied on 2026-05-11.",
+      "emailIds": [
+        "19e041e17a4430ed",
+        "19e041d71b8bc679",
+        "19e18e4df0a1b018"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-neeli-linkedin",
+      "company": "LinkedIn / Neeli Sai Nikhil",
+      "role": "Recruiter or networking message",
+      "appliedDate": "2026-04-30",
+      "status": "Reply recruiter",
+      "recordType": "recruiter_message",
+      "latestDate": "2026-04-30",
+      "source": "LinkedIn",
+      "latestUpdate": "Action completed; waiting for next update.",
+      "notes": "Open LinkedIn and respond if relevant. Completed from Needs Attention on 2026-05-05.",
+      "isHighPriority": true,
+      "actionNeeded": "Open LinkedIn and respond if relevant.",
+      "dueDate": "",
+      "highPriorityDate": "2026-04-30",
+      "highPriorityStatus": "Reply recruiter",
+      "highPriorityNotes": "Open LinkedIn and respond if relevant. Completed from Needs Attention on 2026-05-05.",
+      "emailIds": [
+        "19dde98158adcc4f",
+        "19ddeab04dce9714"
+      ],
+      "done": false
+    },
+    {
+      "id": "app-1778095028793-d54662d14a253",
+      "company": "Global Connect Technologies",
+      "role": "Python HIL Developer",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Wisconsin, United States (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19dfa4d16f7a2a8f"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778095028792-f93cd1b2699d98",
+      "company": "iO Associates",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19dfa55c610629da"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778054413361-941c2f7cd8b81",
+      "company": "BeeHyv Software",
+      "role": "Software Developer – Engineering",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "McKinney, TX (On-site) per LinkedIn confirmation.",
+      "emailIds": [
+        "19dfa4ef86dc846a"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778054413360-78ebebd968a7e8",
+      "company": "LTIMindtree",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19dfa4f1ad028a49"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778054413360-c6c47f9d888d48",
+      "company": "The Judge Group",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19dfa5da384a2fb0"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-1778054413359-513b5636cbffd",
+      "company": "Alarm.com",
+      "role": "Role not specified (Greenhouse confirmation)",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "Greenhouse",
+      "latestUpdate": "Application received.",
+      "notes": "Email confirmation did not include the role title.",
+      "emailIds": [
+        "19dfa662874d5b32"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-rokt",
+      "company": "Rokt",
+      "role": "Junior Software Engineer",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn / Workable / Criteria",
+      "latestUpdate": "Action completed; waiting for next update.",
+      "notes": "Complete by 2026-05-10. Completed from High Priority on 2026-05-11.",
+      "emailIds": [
+        "19df96c75c667679",
+        "19df96fba9046e3c",
+        "19df97b8b0bc0584",
+        "19df9865b11f4a42",
+        "19e03d75637c16df"
+      ],
+      "isHighPriority": false,
+      "done": false,
+      "actionNeeded": "",
+      "dueDate": "",
+      "highPriorityDate": "",
+      "highPriorityNotes": "",
+      "highPriorityStatus": "",
+      "recordType": "application"
+    },
+    {
+      "id": "app-veracity-software",
+      "company": "Veracity Software Inc",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-05",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-05",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Charlotte, NC on-site per earlier email detail.",
+      "emailIds": [
+        "19df97f506cfcd08"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-allied-resources",
+      "company": "Allied Resources Technical Consultants",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df4a1579aae5a1"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-compunnel",
+      "company": "Compunnel Inc.",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df4a1a3c94e3df"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-cyberx",
+      "company": "CyberX Info System",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df4905ad7783c2"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-dexian",
+      "company": "Dexian",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df4918ef89f2da"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-great-value-hiring",
+      "company": "Great Value Hiring",
+      "role": "Software Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn / CEIPAL",
+      "latestUpdate": "Application received.",
+      "notes": "CEIPAL note references AI model training opportunity.",
+      "emailIds": [
+        "19df493d33243c9a",
+        "19df493e7b4fe4f0"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-helic",
+      "company": "Helic & Co.",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df49223a1a7226"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-intelligible-ai",
+      "company": "Intelligible AI",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df4945c2804bf9"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-luxoft",
+      "company": "Luxoft",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df490f1e4dcc6b"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-matlen-silver",
+      "company": "Matlen Silver",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn / Matlen Silver",
+      "latestUpdate": "Action completed; waiting for next update.",
+      "notes": "Manual update from Rohan: already replied to the profile request. Completed from Needs Attention on 2026-05-05.",
+      "emailIds": [
+        "19df492bf02f200b",
+        "19df49fd022f8c49"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-mindlance",
+      "company": "Mindlance",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Update role when the posting is known.",
+      "emailIds": [
+        "19df4966867a959f"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-optym",
+      "company": "Optym",
+      "role": "Software Engineer - Backend (Python)",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "Dallas-Fort Worth on-site per earlier email detail.",
+      "emailIds": [
+        "19df4938b2a9da29"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-qode-value-maximizer",
+      "company": "Qode / The Value Maximizer",
+      "role": "Python Web Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "Workable / LinkedIn",
+      "latestUpdate": "Application submitted.",
+      "notes": "LinkedIn showed The Value Maximizer; Workable confirmation showed Qode.",
+      "emailIds": [
+        "19df4a0915ac05f5",
+        "19df4a047a342e26"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-stealth-startup",
+      "company": "Stealth Startup",
+      "role": "Backend Developer [32922]",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn",
+      "latestUpdate": "Another LinkedIn confirmation arrived for Backend Developer [32922].",
+      "notes": "Additional LinkedIn confirmation received on 2026-05-09 for New York, United States (On-site). LinkedIn confirmation says New York, United States (On-site) and applied on 2026-05-11.",
+      "emailIds": [
+        "19df49cda2cb99b0",
+        "19e0e7a0de51b394",
+        "19e0e77b4fdf5a6d",
+        "19e18e18731d2743"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-trexquant",
+      "company": "Trexquant Investment LP",
+      "role": "Software Engineer - Early Career (USA)",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn / Workable",
+      "latestUpdate": "Application submitted.",
+      "notes": "",
+      "emailIds": [
+        "19df49bdbf8538e0",
+        "19df49d3ff5a2c3c"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-vbeyond",
+      "company": "VBeyond Corporation",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Applied / waiting",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19df48f6989b486c"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-meta-cwx",
+      "company": "Meta CWX",
+      "role": "Data Labeling Analyst II (contract)",
+      "appliedDate": "2026-04-29",
+      "status": "Applied / waiting",
+      "latestDate": "2026-04-29",
+      "source": "TalentNet Community",
+      "latestUpdate": "Application received.",
+      "notes": "Received application on 2026-04-29.",
+      "emailIds": [
+        "19dda88451927b9b",
+        "19ddab0e07baae4b"
+      ],
+      "recordType": "application"
+    },
+    {
+      "id": "app-yochana",
+      "company": "Yochana",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-04-28",
+      "status": "Applied / waiting",
+      "latestDate": "2026-04-28",
+      "source": "LinkedIn",
+      "latestUpdate": "Application sent.",
+      "notes": "",
+      "emailIds": [
+        "19dd275c71593dad"
+      ],
+      "recordType": "application"
+    }
+  ],
+  "trash": [
+    {
+      "id": "trash-2026-05-12-170219-4d65e33a092fb8",
+      "company": "Epic",
+      "role": "Role not visible in email summary",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-11",
+      "source": "Epic Human Resources",
+      "latestUpdate": "Epic said it decided to move forward with other candidates after reviewing the application.",
+      "notes": "Email notes the position requires relocation to the Madison, WI area. Rejection email received from Epic Human Resources on 2026-05-11.",
+      "emailIds": [
+        "19df46d5abb15a3e",
+        "19e18dc852b4a1cf"
+      ],
+      "recordType": "application",
+      "originalId": "app-epic",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-13T00:02:19.179Z"
+    },
+    {
+      "id": "trash-2026-05-12-170219-ecdd8ba1d60a18",
+      "company": "Ledgent Technology",
+      "role": "Software Engineer",
+      "appliedDate": "2026-05-11",
+      "status": "Rejected",
+      "latestDate": "2026-05-11",
+      "source": "LinkedIn / Roth Staffing",
+      "latestUpdate": "LinkedIn rejection template said Ledgent Technology will not be moving forward with the Software Engineer application.",
+      "notes": "LinkedIn confirmed the application on 2026-05-11, Roth Staffing sent a matching confirmation, and the TalentSet follow-up was completed before the same-day LinkedIn rejection.",
+      "emailIds": [
+        "19e18f54b64433b4",
+        "19e18f753b8fe433",
+        "19e18fe987cbfbcb",
+        "19e190ca88ddd2a9"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778630527069-5b3fad835ea648",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-13T00:02:19.179Z"
+    },
+    {
+      "company": "EchoStar",
+      "role": "Software Engineer I",
+      "appliedDate": "2026-05-05",
+      "status": "Rejected",
+      "latestDate": "2026-05-11",
+      "source": "iCIMS / EchoStar",
+      "latestUpdate": "Rejected by EchoStar after review; the email said they decided not to move forward with the Software Engineer I position - 2026-97454.",
+      "notes": "iCIMS login/email verification required to access application account. Completed from Needs Attention on 2026-05-06. EchoStar rejection received on 2026-05-11 for requisition 2026-97454.",
+      "emailIds": [
+        "19dfa5c9471246cc",
+        "19dfa5abfd31605c",
+        "19e188d86882ef54"
+      ],
+      "id": "trash-2026-05-11-134712-1b60f817822518",
+      "recordType": "application",
+      "originalId": "app-1778031700531-8c7c0e4664cbf8",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-11T20:47:12.813Z"
+    },
+    {
+      "id": "trash-2026-05-11-134712-a3350bd4856df8",
+      "company": "IBM",
+      "role": "Software Engineer Apprentice - 113738",
+      "appliedDate": "2026-05-08",
+      "status": "Rejected",
+      "latestDate": "2026-05-10",
+      "source": "IBM Careers / Avature",
+      "latestUpdate": "Rejected by IBM Talent Acquisition after review; IBM said it decided to pursue other candidates whose applications more closely align with the role.",
+      "notes": "Candidate ID 13365373. IBM rejection received on 2026-05-10 for ref 113738.",
+      "emailIds": [
+        "19e0922d207bac50",
+        "19e13778884b778d"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778359817692-33540569faebc8",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-11T20:47:12.813Z"
+    },
+    {
+      "id": "trash-2026-05-10-120450-ac5a982f438fe8",
+      "company": "Amazon",
+      "role": "Software Engineer I, Commerce Engineering (ID: 3202388)",
+      "appliedDate": "2026-05-08",
+      "status": "Rejected",
+      "latestDate": "2026-05-10",
+      "source": "Amazon Jobs",
+      "latestUpdate": "Rejected by Amazon; the status update said you do not meet the criteria for Amazon's experienced professional opportunities and they are unable to proceed with the application.",
+      "notes": "Amazon confirmation says updates will appear on the candidate dashboard. Amazon rejection received on 2026-05-10.",
+      "emailIds": [
+        "19e0918e2f90d26c",
+        "19e0914088920e99",
+        "19e10d287a5de93e"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778359817693-92559e443aafa8",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-10T19:04:50.921Z"
+    },
+    {
+      "id": "trash-2026-05-09-213500-9708ecabd99e48",
+      "company": "Envision Technology Solutions",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-05",
+      "status": "Rejected",
+      "latestDate": "2026-05-08",
+      "source": "LinkedIn",
+      "latestUpdate": "LinkedIn rejection template said Envision Technology Solutions will not be moving forward with the application.",
+      "notes": "Original LinkedIn confirmation said New Jersey, United States (On-site). LinkedIn rejection email used the email_jobs_application_rejected_01 template.",
+      "emailIds": [
+        "19dfa4d573541c99",
+        "19e09c0cfdbf6bce"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778180935069-5385ccbc9bca38",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T21:35:00.000Z"
+    },
+    {
+      "id": "trash-2026-05-09-213500-4fbf1620d6fb28",
+      "company": "Next Gen Software Solutions LLC",
+      "role": "Python Full Stack Developer | Contract W2",
+      "appliedDate": "2026-05-05",
+      "status": "Rejected",
+      "latestDate": "2026-05-08",
+      "source": "LinkedIn",
+      "latestUpdate": "LinkedIn rejection template said Next Gen Software Solutions LLC will not be moving forward with the application.",
+      "notes": "LinkedIn rejection email used the email_jobs_application_rejected_01 template.",
+      "emailIds": [
+        "19dfa5d50c70ce17",
+        "19e09d0cf515d38d"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778054413360-529b8d8ac9dfd8",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T21:35:00.000Z"
+    },
+    {
+      "id": "trash-2026-05-09-213500-bb9ab6e766ed68",
+      "company": "Red Oak Technologies",
+      "role": "Python Software Engineer (Manufacturing)",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "LinkedIn rejection template said Red Oak Technologies will not be moving forward with the application.",
+      "notes": "Initial tracker row had no role in the LinkedIn summary, but the rejection email exposed the full role title.",
+      "emailIds": [
+        "19df492890a23e7f",
+        "19e04060d05fd0f1"
+      ],
+      "recordType": "application",
+      "originalId": "app-red-oak",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T21:35:00.000Z"
+    },
+    {
+      "id": "trash-2026-05-09-213500-7f20bccd8b2508",
+      "company": "Sibitalent Corp",
+      "role": "Python Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "LinkedIn rejection template said Sibitalent Corp will not be moving forward with the application.",
+      "notes": "LinkedIn rejection email used the email_jobs_application_rejected_01 template.",
+      "emailIds": [
+        "19df49c8e6e9eef1",
+        "19e04100678b609e"
+      ],
+      "recordType": "application",
+      "originalId": "app-sibitalent",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T21:35:00.000Z"
+    },
+    {
+      "id": "trash-2026-05-09-213500-ec9d65172fdb78",
+      "company": "SoTalent",
+      "role": "Software Engineer",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "LinkedIn rejection template said SoTalent will not be moving forward with the application.",
+      "notes": "This rejection email had already been merged into the active row emailIds, but the row had not been moved to Trash.",
+      "emailIds": [
+        "19df49d3d0a31b26",
+        "19e0410ae368c983"
+      ],
+      "recordType": "application",
+      "originalId": "app-sotalent",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T21:35:00.000Z"
+    },
+    {
+      "id": "trash-2026-05-09-214200-9916fd0dfd9df8",
+      "company": "Menlo Innovations",
+      "role": "Software Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-07",
+      "source": "LinkedIn",
+      "latestUpdate": "LinkedIn rejection template said Menlo did not select the application to move forward in the hiring process.",
+      "notes": "Earlier LinkedIn confirmation hid the role title; the later rejection email exposed Software Developer.",
+      "emailIds": [
+        "19df491576df2f2c",
+        "19e0404d2a440899"
+      ],
+      "recordType": "application",
+      "originalId": "app-menlo",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T21:42:00.000Z"
+    },
+    {
+      "id": "trash-1778359980203-f4aeb1b5017be8",
+      "company": "Apex Systems / Recruiter Riley",
+      "role": "Python and React recruiter outreach",
+      "appliedDate": "2026-05-07",
+      "status": "Reply recruiter",
+      "latestDate": "2026-05-07",
+      "source": "Apex Systems",
+      "latestUpdate": "Recruiter requested updated resume and candidate details for a Python/React opportunity.",
+      "notes": "Email was routed to spam but appears to be a direct recruiter outreach from Apex Systems.",
+      "emailIds": [
+        "19e03d1b37794a36"
+      ],
+      "recordType": "recruiter_message",
+      "isHighPriority": true,
+      "done": false,
+      "actionNeeded": "Reply with updated resume and requested Python/React, location, work authorization, salary, notice, and interview availability details if interested.",
+      "dueDate": "",
+      "highPriorityDate": "2026-05-07",
+      "highPriorityStatus": "Reply recruiter",
+      "highPriorityNotes": "Recruiter asked for total experience, Python/React summary, location, sponsorship, pay, notice period, and interview availability.",
+      "originalId": "app-1778196228675-803d7a67fc6b2",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T20:53:00.201Z"
+    },
+    {
+      "id": "trash-2026-05-09-135043-0e132e660458a8",
+      "company": "IBM",
+      "role": "Associate Application Developer (Early Career) - Future Now",
+      "appliedDate": "2026-05-07",
+      "status": "Rejected",
+      "latestDate": "2026-05-09",
+      "source": "IBM Careers / Avature",
+      "latestUpdate": "Rejected by IBM Talent Acquisition after review; IBM said it decided to pursue other candidates whose applications more closely align with the role.",
+      "notes": "Req 110398; Candidate ID 13365373 per IBM confirmation email. Ref 110398 rejection received on 2026-05-09.",
+      "emailIds": [
+        "19e04215e95fed7c",
+        "19e0e75c60e617d0"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778186378912-e6551d9276103",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T20:50:43.241Z"
+    },
+    {
+      "id": "trash-2026-05-09-135043-74117f8a632fc",
+      "company": "IBM",
+      "role": "Software Engineer Apprentice - 102065",
+      "appliedDate": "2026-05-07",
+      "status": "Rejected",
+      "recordType": "application",
+      "latestDate": "2026-05-09",
+      "source": "IBM Careers / Avature",
+      "latestUpdate": "Rejected by IBM Talent Acquisition after review; IBM said it decided to pursue other candidates whose applications more closely align with the role.",
+      "notes": "Candidate ID 13365373. Ref 102065 rejection received on 2026-05-09.",
+      "emailIds": [
+        "19e041c8cbb51a62",
+        "19e0e712046c3015"
+      ],
+      "originalId": "app-1778187115964-ibm-apprentice",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T20:50:43.241Z"
+    },
+    {
+      "id": "trash-2026-05-09-135043-4900632f25b0e8",
+      "company": "DEKA Research & Development",
+      "role": "Junior Software Engineer",
+      "appliedDate": "2026-05-07",
+      "status": "Rejected",
+      "recordType": "application",
+      "latestDate": "2026-05-08",
+      "source": "ApplyToJob",
+      "latestUpdate": "Rejected after DEKA said it cannot consider candidates who require sponsorship now or in the future.",
+      "notes": "Confirmation email said DEKA received the resume/application and will respond either way. ApplyToJob email says DEKA cannot consider OPT/H1B sponsorship candidates at this time.",
+      "emailIds": [
+        "19e03fbaaa8b071b",
+        "19e0924524272fdf"
+      ],
+      "originalId": "app-1778187959506-deka",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-09T20:50:43.241Z"
+    },
+    {
+      "id": "trash-2026-05-08-121323-0dcaddae6eedb8",
+      "company": "Genuine Parts Company",
+      "role": "Software Developer Intern",
+      "appliedDate": "2026-04-28",
+      "status": "Rejected",
+      "latestDate": "2026-05-08",
+      "source": "Workday",
+      "latestUpdate": "Rejected by Genuine Parts Company Workday email: decided not to move forward with your application for Software Developer Intern.",
+      "notes": "Rejection email ID: 19e05c6252838a56.",
+      "emailIds": [
+        "19dd16e3c64c5e54",
+        "19e05c6252838a56"
+      ],
+      "recordType": "application",
+      "originalId": "app-gpc",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-08T19:13:23.364Z"
+    },
+    {
+      "id": "trash-2026-05-08-121323-10f4c73695a7",
+      "company": "Deloitte",
+      "role": "Full Stack Engineer",
+      "appliedDate": "2026-05-07",
+      "status": "Rejected",
+      "latestDate": "2026-05-08",
+      "source": "Deloitte / Avature",
+      "latestUpdate": "Rejected by Deloitte follow-up email after review of the Full Stack Engineer application.",
+      "notes": "Req 325663. Confirmation and rejection were both received via Deloitte careers emails.",
+      "emailIds": [
+        "19e04d7d86c9a33e",
+        "19e07daa02b96755"
+      ],
+      "recordType": "application",
+      "originalId": "app-1778267559211-badeecbbb243c8",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-08T19:13:23.364Z"
+    },
+    {
+      "id": "trash-1778195783881-2872a6eb0b8968",
+      "company": "Crossing Hurdles / Micro1 x AI Labs",
+      "role": "Software Engineer (New Grad)",
+      "appliedDate": "2026-05-04",
+      "status": "Reply needed",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn / CEIPAL",
+      "latestUpdate": "Opportunity says apply ASAP.",
+      "notes": "Remote role with PST overlap and listed pay range $180K-$250K/yr.",
+      "emailIds": [
+        "19df48fdeda6856e",
+        "19df48fe9b5f21e3"
+      ],
+      "isHighPriority": true,
+      "done": false,
+      "actionNeeded": "Apply or respond if interested; the email says apply ASAP.",
+      "dueDate": "",
+      "highPriorityDate": "2026-05-04",
+      "highPriorityNotes": "Remote role with PST overlap and listed pay range $180K-$250K/yr.",
+      "highPriorityStatus": "Reply needed",
+      "recordType": "application",
+      "originalId": "app-crossing-hurdles",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-07T23:16:23.881Z"
+    },
+    {
+      "id": "trash-1778187115974-7c68fb45d01cb",
+      "company": "Leidos",
+      "role": "Software Developer",
+      "appliedDate": "2026-05-07",
+      "status": "Rejected",
+      "recordType": "application",
+      "latestDate": "2026-05-07",
+      "source": "Workday",
+      "latestUpdate": "Rejected by Leidos Workday email: hiring team moved forward in a different direction.",
+      "notes": "Application confirmation and rejection received same day.",
+      "emailIds": [
+        "19e0401e70dd3598",
+        "19e04314759d3ae2"
+      ],
+      "originalId": "app-1778187115964-leidos",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-07T20:51:55.965Z"
+    },
+    {
+      "company": "PNC",
+      "role": "Software Engineer (R220796)",
+      "appliedDate": "2026-05-05",
+      "status": "Rejected",
+      "latestDate": "2026-05-07",
+      "source": "Workday",
+      "latestUpdate": "Rejected by PNC Workday email: Thank you for your interest in PNC.",
+      "notes": "Rejection email ID: 19e00bf30cea931c.",
+      "emailIds": [
+        "19dfa4bd98daaec4",
+        "19e00bf30cea931c"
+      ],
+      "id": "trash-1778185753029-07527e56cd4428",
+      "recordType": "application",
+      "isHighPriority": false,
+      "done": false,
+      "actionNeeded": "",
+      "dueDate": "",
+      "highPriorityDate": "",
+      "highPriorityNotes": "",
+      "highPriorityStatus": "",
+      "originalId": "app-1778031700531-f6c086aaaac65",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-07T20:29:13.029Z"
+    },
+    {
+      "company": "PNC",
+      "role": "Software Engineer (R219960)",
+      "appliedDate": "2026-05-05",
+      "status": "Rejected",
+      "latestDate": "2026-05-07",
+      "source": "Workday",
+      "latestUpdate": "Rejected by PNC Workday email: Thank you for your interest in PNC.",
+      "notes": "Workday verification link expires 24 hours from email. Rejection email ID: 19e00bf2ce46e535.",
+      "emailIds": [
+        "19dfa49867477ee6",
+        "19dfa3818c58b6f1",
+        "19e00bf2ce46e535"
+      ],
+      "id": "trash-1778185753029-b805397946771",
+      "isHighPriority": false,
+      "done": false,
+      "actionNeeded": "",
+      "dueDate": "",
+      "highPriorityDate": "",
+      "highPriorityStatus": "",
+      "highPriorityNotes": "",
+      "recordType": "application",
+      "originalId": "app-1778031700531-1a55d7a94feb7",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-07T20:29:13.028Z"
+    },
+    {
+      "id": "trash-1778055831559-b6eeb22eb04f68",
+      "company": "GraceMark Solutions",
+      "role": "Python with OpenShift Developer / Python Developer",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-04",
+      "source": "LinkedIn",
+      "latestUpdate": "Application rejected.",
+      "notes": "Multiple GraceMark confirmations were labeled Jobs. LinkedIn rejection email says GraceMark Solutions will not be moving forward with the Python with OpenShift Developer application.",
+      "emailIds": [
+        "19df4a2507ad810c",
+        "19df4a0994f3f0be",
+        "19df466517fcf0b7"
+      ],
+      "originalId": "app-gracemark",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-06T08:23:51.559Z",
+      "recordType": "application"
+    },
+    {
+      "id": "trash-1778033784947-e4a86d3a9fcdd",
+      "company": "GlossGenius",
+      "role": "Software Engineer - All Levels",
+      "appliedDate": "2026-05-04",
+      "status": "Rejected",
+      "latestDate": "2026-05-05",
+      "source": "Greenhouse",
+      "latestUpdate": "Application rejected.",
+      "notes": "Email says they will not be moving forward with the application.",
+      "emailIds": [
+        "19df49629d4cedf8",
+        "19df4968e16e6b1b",
+        "19df94c2730b02b3"
+      ],
+      "originalId": "app-glossgenius",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-06T02:16:24.947Z",
+      "recordType": "application"
+    },
+    {
+      "id": "trash-1778033774606-bb8cdcf33cfc58",
+      "company": "Brillio",
+      "role": "Python Developer",
+      "appliedDate": "2026-04-30",
+      "status": "Rejected",
+      "latestDate": "2026-05-03",
+      "source": "LinkedIn",
+      "latestUpdate": "Application rejected.",
+      "notes": "LinkedIn rejection email says Brillio will not be moving forward.",
+      "emailIds": [
+        "19ddc72137bb1ab9",
+        "19debe599762b2ab"
+      ],
+      "originalId": "app-brillio",
+      "deletedFrom": "apps",
+      "deletedAt": "2026-05-06T02:16:14.606Z",
+      "recordType": "application"
+    }
+  ],
+  "permanentlyDeletedItems": [
+    {
+      "id": "permadelete-1778106909522-3c93fff8642cb8",
+      "permanentlyDeletedAt": "2026-05-06T22:35:09.522Z",
+      "originalId": "app-1778106859661-0dbdaa489b64d8",
+      "deletedFrom": "apps",
+      "company": "mnjn\n",
+      "role": "",
+      "recordType": "application",
+      "status": "Applied / waiting",
+      "emailIds": [],
+      "threadIds": []
+    },
+    {
+      "id": "permadelete-1778106851946-231aaa0658a7e",
+      "permanentlyDeletedAt": "2026-05-06T22:34:11.946Z",
+      "originalId": "app-1778106834071-051c5e5b594708",
+      "deletedFrom": "apps",
+      "company": "",
+      "role": "",
+      "recordType": "application",
+      "status": "Applied / waiting",
+      "emailIds": [],
+      "threadIds": []
+    },
+    {
+      "id": "permadelete-1778102428666-89a38fe603658",
+      "permanentlyDeletedAt": "2026-05-06T21:20:28.666Z",
+      "originalId": "app-simplify",
+      "deletedFrom": "apps",
+      "company": "Simplify",
+      "role": "Candidate profile",
+      "recordType": "application",
+      "status": "Applied / waiting",
+      "emailIds": [
+        "19dd6eee43cf4e36",
+        "19de13cf8ecec000"
+      ],
+      "threadIds": []
+    }
+  ],
+  "processedEmailIds": [
+    "19df9865b11f4a42",
+    "19df97b8b0bc0584",
+    "19df49fd022f8c49",
+    "19df94c2730b02b3",
+    "19debe599762b2ab",
+    "19dfa662874d5b32",
+    "19dfa5da384a2fb0",
+    "19dfa5d50c70ce17",
+    "19dfa4f1ad028a49",
+    "19dfa4ef86dc846a",
+    "19dfa55c610629da",
+    "19dfa4d16f7a2a8f",
+    "19dfa3818c58b6f1",
+    "19dfe5800ea6de87",
+    "19dfe45ea49772a0",
+    "19dfe18d7ad3ee72",
+    "19dfdf850f504324",
+    "19dfdf5301e07876",
+    "19dfdaa88e985b43",
+    "19dfba18632d8760",
+    "19df5bbc50b3ff0c",
+    "19df58d99bd345d5",
+    "19df4fcd8c2d10d6",
+    "19df4c28b0e6df8a",
+    "19df4a9dbf2512a4",
+    "19df49c372467df0",
+    "19df4890bcc16de7",
+    "19dfa4d573541c99",
+    "19dfecb1eec7ccc8",
+    "19df3ad7849e930b",
+    "19e00bf2ce46e535",
+    "19e00bf30cea931c",
+    "19e04215e95fed7c",
+    "19e041e17a4430ed",
+    "19e041d71b8bc679",
+    "19e041d097483139",
+    "19e041c4be910ba1",
+    "19e041af7fb6fb4e",
+    "19e0403a72122390",
+    "19e041a93c389658",
+    "19e0410ae368c983",
+    "19e04100678b609e",
+    "19e040592df18db1",
+    "19e0404df9e60e89",
+    "19e0404d2a440899",
+    "19e04060d05fd0f1",
+    "19e04032b69000b2",
+    "19e03f20ac963a8c",
+    "19e03f1239f46498",
+    "19e03eea90df14e0",
+    "19e04314759d3ae2",
+    "19e041c8cbb51a62",
+    "19e0409aa7dfc110",
+    "19e040724fd31764",
+    "19e0401e70dd3598",
+    "19e03d75637c16df",
+    "19e03fbaaa8b071b",
+    "19dfad83d9b2e1cf",
+    "19dfac369395811e",
+    "19e04bd38447a2f5",
+    "19e0466aa3daac78",
+    "19e03d1b37794a36",
+    "19e01a6e6f0b02e4",
+    "19e08912f9180a02",
+    "19e0600b0045be8c",
+    "19e05c6252838a56",
+    "19e04f6e69dbc0f2",
+    "19e04f64b16f3284",
+    "19e04e33511297d6",
+    "19e04dbd87e7175a",
+    "19e04d7d86c9a33e",
+    "19e07daa02b96755",
+    "19e04cabaf9544cd",
+    "19e04c6d50b32ca2",
+    "19e0e75c60e617d0",
+    "19e0e712046c3015",
+    "19e0922d207bac50",
+    "19e092d821ec12ee",
+    "19e0921310043dc2",
+    "19e0918e2f90d26c",
+    "19e0914088920e99",
+    "19e0924524272fdf",
+    "19e0e744d89a70f2",
+    "19e0e73cfd4ceb13",
+    "19e090c45d815476",
+    "19e090c435bd5b55",
+    "19e0e7b3b0b799da",
+    "19e0e797f19eb8ab",
+    "19e0e7a0de51b394",
+    "19e0e77b4fdf5a6d",
+    "19e0e78317f55a6b",
+    "19e0e79347f456b4",
+    "19e0910ac8578a0d",
+    "19e090dd6e832240",
+    "19e09d0cf515d38d",
+    "19e09c0cfdbf6bce",
+    "19e0e713a7a81ad2",
+    "19e0a3e1299877ba",
+    "19e0a36b27e560ea",
+    "19e0dc816c2c5d65",
+    "19e0b71faf41d88d",
+    "19e10d287a5de93e",
+    "19e091d7c6575434",
+    "19e1890949800f6e",
+    "19e188d86882ef54",
+    "19e13778884b778d",
+    "19e1467cf3a96ecc",
+    "19e19645570b6a31",
+    "19e1e8aaf8e48d7a",
+    "19e18dc852b4a1cf",
+    "19e18f54b64433b4",
+    "19e18f753b8fe433",
+    "19e18fe987cbfbcb",
+    "19e190ca88ddd2a9",
+    "19e1de14b5bc714e",
+    "19e18f637c54309a",
+    "19e18f4d442b4a08",
+    "19e18f3bdf917095",
+    "19e18ef89e149a16",
+    "19e18e7b81c85c15",
+    "19e18e6050136ef7",
+    "19e18e580e78e6d4",
+    "19e18e4df0a1b018",
+    "19e18e4320c5c77b",
+    "19e18e1bf8ccfefe",
+    "19e18e18731d2743",
+    "19e18e0c8ec58d16",
+    "19e18e0a226fbb12",
+    "19e18df357338301"
+  ],
+  "completedActions": [
+    {
+      "id": "done-1778460356798-fe74423a3c975",
+      "company": "Rokt",
+      "role": "Junior Software Engineer",
+      "completedDate": "2026-05-11",
+      "previousStatus": "Assessment / interview",
+      "actionNeeded": "Complete Criteria assessment next steps for Rokt.",
+      "latestDate": "2026-05-07",
+      "notes": "Assessment ID RKT-W8FF-reBP-gMNP9. The CCAT is about 15 minutes and the EPP is under 10 minutes. Criteria reminder email ID: 19e03d75637c16df. Completed from High Priority on 2026-05-11.",
+      "emailIds": [
+        "19df96c75c667679",
+        "19df96fba9046e3c",
+        "19df97b8b0bc0584",
+        "19df9865b11f4a42",
+        "19e03d75637c16df"
+      ]
+    },
+    {
+      "id": "done-1778030413139-095fcc733cef7",
+      "company": "EchoStar",
+      "role": "Software Engineer I",
+      "completedDate": "2026-05-06",
+      "previousStatus": "Reply needed",
+      "actionNeeded": "Verify iCIMS email address (EchoStar) so the application account is active.",
+      "latestDate": "2026-05-05",
+      "notes": "Email verification link came from no-reply@icims.com. Completed from Needs Attention on 2026-05-06.",
+      "emailIds": [
+        "19dfa5abfd31605c"
+      ]
+    },
+    {
+      "id": "done-1778015458214-4faa82c15848f8",
+      "company": "LinkedIn / Amar Katarya",
+      "role": "Professional message",
+      "completedDate": "2026-05-05",
+      "previousStatus": "Reply needed",
+      "actionNeeded": "Open LinkedIn and check whether this message is job or recruiter related.",
+      "latestDate": "2026-04-27",
+      "notes": "The email digest hides the message body, so this needs a quick manual check. Completed from Needs Attention on 2026-05-05.",
+      "emailIds": [
+        "19dcf2819b81c710"
+      ]
+    },
+    {
+      "id": "done-2026-05-05-140844",
+      "company": "Simplify",
+      "role": "Candidate profile",
+      "completedDate": "2026-05-05",
+      "previousStatus": "Applied / waiting",
+      "actionNeeded": "Finish the Simplify profile if you want that platform active.",
+      "latestDate": "2026-05-01",
+      "notes": "Founder check-in said the profile was not finished. Completed from Needs Attention on 2026-05-05.",
+      "emailIds": [
+        "19de13cf8ecec000"
+      ]
+    },
+    {
+      "id": "done-2026-05-05-140844",
+      "company": "LinkedIn / Neeli Sai Nikhil",
+      "role": "Recruiter or networking message",
+      "completedDate": "2026-05-05",
+      "previousStatus": "Reply needed",
+      "actionNeeded": "Open LinkedIn and reply if this is job related.",
+      "latestDate": "2026-04-30",
+      "notes": "LinkedIn digest says one new message awaits your response. Completed from Needs Attention on 2026-05-05.",
+      "emailIds": [
+        "19dde98158adcc4f"
+      ]
+    },
+    {
+      "id": "done-2026-05-05-140844",
+      "company": "Matlen Silver",
+      "role": "Python Developer / candidate profile",
+      "completedDate": "2026-05-05",
+      "previousStatus": "Reply needed",
+      "actionNeeded": "Work visa/profile update was requested.",
+      "latestDate": "2026-05-04",
+      "notes": "Manual update from Rohan: already replied/handled. Completed from Needs Attention on 2026-05-05.",
+      "emailIds": [
+        "19df49fd022f8c49"
+      ]
+    }
+  ]
+}

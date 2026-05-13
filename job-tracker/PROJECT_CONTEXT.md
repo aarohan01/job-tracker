@@ -18,6 +18,7 @@ The project is intentionally practical rather than generalized. Prefer small bug
 - `scripts/build-master-workbook.mjs`: manual dashboard export for `Job Application Tracker.xlsx`; it merges workbook edits when appropriate, completes done items, moves rejected rows to Trash, and renders previews.
 - `scripts/update-tracker-from-gmail.mjs`: helper/update script pattern for applying Gmail-derived updates.
 - `scripts/file-io.mjs`: shared OneDrive-safe JSON writer.
+- `scripts/build-readonly-site.mjs`: copies `job-tracker.json` into `docs/data/` for the read-only GitHub Pages snapshot.
 - `install-startup-task.ps1`: creates a per-user Windows Startup shortcut that runs `start-job-tracker.ps1`.
 - `tests/tracker-model.test.mjs`: model behavior tests.
 

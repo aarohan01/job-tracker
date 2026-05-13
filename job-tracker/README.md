@@ -39,6 +39,14 @@ The dashboard runs at:
 http://localhost:3000
 ```
 
+Build the read-only GitHub Pages snapshot:
+
+```powershell
+npm run build:readonly
+```
+
+The generated mobile-friendly static site lives in `..\docs` and is safe for GitHub Pages.
+
 Start the dashboard automatically after Windows login:
 
 ```powershell

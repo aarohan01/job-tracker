@@ -1,0 +1,277 @@
+:root {
+  color-scheme: light;
+  --bg: #f6f7f4;
+  --ink: #17201a;
+  --muted: #687268;
+  --line: #d9ded7;
+  --panel: #ffffff;
+  --green: #e5f3df;
+  --green-ink: #23572a;
+  --amber: #fff0c8;
+  --amber-ink: #7b5600;
+  --blue: #e1efff;
+  --blue-ink: #1d4f86;
+  --slate: #e8ecef;
+  --slate-ink: #46525c;
+  --red: #ffe2df;
+  --red-ink: #8b2822;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.shell {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.eyebrow,
+.updated span,
+.metrics span,
+.shownCount {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  margin: 0 0 4px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.updated {
+  text-align: right;
+}
+
+.updated strong {
+  display: block;
+  margin-top: 4px;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.metrics div {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.metrics strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 22px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 190px;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+input,
+select {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  padding: 11px 12px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.tab {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  padding: 10px 12px;
+  white-space: nowrap;
+}
+
+.tab.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.viewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 18px 0 8px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 12px;
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.company {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.role {
+  color: var(--muted);
+  margin-top: 4px;
+  line-height: 1.25;
+}
+
+.badge {
+  border-radius: 999px;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.status-green {
+  background: var(--green);
+  color: var(--green-ink);
+}
+
+.status-amber {
+  background: var(--amber);
+  color: var(--amber-ink);
+}
+
+.status-blue {
+  background: var(--blue);
+  color: var(--blue-ink);
+}
+
+.status-slate {
+  background: var(--slate);
+  color: var(--slate-ink);
+}
+
+.status-red {
+  background: var(--red);
+  color: var(--red-ink);
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.detail {
+  min-width: 0;
+}
+
+.label {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.value {
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.notes {
+  border-top: 1px solid var(--line);
+  margin-top: 12px;
+  padding-top: 10px;
+  color: #2f382f;
+  line-height: 1.35;
+}
+
+.empty {
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+  padding: 22px;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .shell {
+    padding: 14px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .updated {
+    text-align: left;
+  }
+
+  .metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .controls,
+  .cards,
+  .details {
+    grid-template-columns: 1fr;
+  }
+}

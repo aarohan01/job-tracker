@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "build:readonly": "node scripts/build-readonly-site.mjs",
     "test": "node tests/tracker-model.test.mjs && node tests/file-io.test.mjs"
   }
 }
