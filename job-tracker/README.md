@@ -45,7 +45,7 @@ Build the read-only GitHub Pages snapshot:
 npm run build:readonly
 ```
 
-The generated mobile-friendly static site lives in `..\docs` and is safe for GitHub Pages.
+The mobile read-only source lives in `readonly-site/`. The generated static site is copied to `..\docs` only because GitHub Pages can publish that folder from the repo root.
 
 Start the dashboard automatically after Windows login:
 

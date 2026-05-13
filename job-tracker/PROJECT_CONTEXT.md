@@ -10,6 +10,8 @@ The project is intentionally practical rather than generalized. Prefer small bug
 
 ## Current Architecture
 
+- Treat `C:\Users\ronha\OneDrive\Documents\New project\job-tracker` as the project root for Job Tracker work. Put code, scripts, tests, docs, and source assets for this app under `job-tracker/`.
+- The repository root `docs/` folder is generated GitHub Pages publishing output only. Do not hand-edit it unless the user explicitly asks to work on GitHub Pages output; edit `job-tracker/readonly-site/` and run `npm run build:readonly` instead.
 - `app/server.mjs`: local HTTP server, static file serving, JSON save endpoint, Excel export endpoint.
 - `app/app.js`: dashboard controller for state, filters, row actions, saving, selection, and Excel sync.
 - `app/views.js`: renders High Priority, Application Tracker, and Trash tables.
@@ -18,7 +20,8 @@ The project is intentionally practical rather than generalized. Prefer small bug
 - `scripts/build-master-workbook.mjs`: manual dashboard export for `Job Application Tracker.xlsx`; it merges workbook edits when appropriate, completes done items, moves rejected rows to Trash, and renders previews.
 - `scripts/update-tracker-from-gmail.mjs`: helper/update script pattern for applying Gmail-derived updates.
 - `scripts/file-io.mjs`: shared OneDrive-safe JSON writer.
-- `scripts/build-readonly-site.mjs`: copies `job-tracker.json` into `docs/data/` for the read-only GitHub Pages snapshot.
+- `readonly-site/`: source for the mobile-friendly read-only remote view.
+- `scripts/build-readonly-site.mjs`: copies `readonly-site/` plus `job-tracker.json` into repo-root `docs/` for the read-only GitHub Pages snapshot.
 - `install-startup-task.ps1`: creates a per-user Windows Startup shortcut that runs `start-job-tracker.ps1`.
 - `tests/tracker-model.test.mjs`: model behavior tests.
 
@@ -123,6 +126,7 @@ LinkedIn exposed a second bug shape: its rejection emails can look like neutral 
 ```
 
 - Keep the dense single-theme dashboard.
+- Use `job-tracker/` as the working folder for all Job Tracker code-related work. The parent `New project` folder is only the git repository wrapper and may contain generated publishing output.
 - The dashboard should auto-start on Windows login via the Startup shortcut created by `install-startup-task.ps1`.
 - The `Last updated` metric should reflect automation/backend data changes, not normal dashboard edits such as status changes.
 - Prefer stability over refactoring because the app is now mostly done.
