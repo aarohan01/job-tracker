@@ -7,8 +7,6 @@ job-tracker/server.port
 job-tracker/job-tracker.json.*.tmp
 
 # Personal tracker data and generated reports
-job-tracker/job-tracker.json
-job-tracker/tracked-companies.txt
 job-tracker/Job Application Tracker.xlsx
 job-tracker/backups/
 job-tracker/previews/
