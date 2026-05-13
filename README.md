@@ -1,5 +1,7 @@
 # Job Tracker
 
+[View Live Read-Only Snapshot](https://aarohan01.github.io/job-tracker/)
+
 A personal job-search command center built to turn scattered application emails into a clear, searchable workflow.
 
 This project combines a local dashboard, structured JSON data, Gmail-driven automation, Excel export support, and a read-only mobile snapshot hosted with GitHub Pages. I built it to solve a real problem in my own search: keeping applications, recruiter messages, assessments, rejections, and follow-ups organized without relying on a spreadsheet as the primary interface.
