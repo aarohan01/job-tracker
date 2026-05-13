@@ -115,7 +115,7 @@ Expected behavior:
 
 - scan Gmail incrementally by default
 - run a full scan only when requested or when no previous successful scan exists
-- label matching job-search emails as `Jobs`
+- label confirmed job-search emails as `Jobs`
 - preserve user edits
 - update `job-tracker.json`
 - email a concise summary with subject `JOB report - YYYY-MM-DD`
@@ -127,6 +127,7 @@ Important scan rules:
 
 - scan from `meta.lastSuccessfulScanAt - meta.incrementalScanOverlapDays` through now for incremental runs
 - scan from `meta.scanWindowStart` for full runs
+- broad Gmail search candidates should not be labeled automatically; apply the `Jobs` label only after classification confirms the message is job-search related
 - after success, update `meta.lastSuccessfulScanAt`, reset `meta.nextScanMode` to `incremental`, and clear `meta.fullScanRequestedAt`
 
 ## Tests

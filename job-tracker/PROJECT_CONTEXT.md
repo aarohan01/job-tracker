@@ -99,10 +99,10 @@ The daily Codex automation should:
 - run at 12 PM
 - use `C:\Users\ronha\OneDrive\Documents\New project\job-tracker` as its working directory
 - use local paths such as `job-tracker.json`
-- use a two-stage workflow: high-recall collection/labeling first, then classification/tracker updates
+- use a two-stage workflow: high-recall candidate collection first, then classification/tracker updates
 - scan incrementally by timestamp, with overlap days from `meta.incrementalScanOverlapDays`
 - full scan only when `meta.nextScanMode === "full"` or no `meta.lastSuccessfulScanAt` exists
-- label all plausible job-search operational emails as `Jobs`, even if they later produce no tracker row
+- only label confirmed job-search emails as `Jobs`; do not label broad/uncertain candidates just because they were scanned
 - preserve user edits
 - suppress duplicates using email/thread IDs across active rows, Trash, permanent deletes, completed actions, and processed IDs
 - inspect full body/snippet/subject/URLs for rejection signals
@@ -112,7 +112,7 @@ The daily Codex automation should:
 
 Known rejection examples that must be caught include GlossGenius, Brillio, and GraceMark Solutions.
 
-PNC exposed an important retrieval bug: Workday emails from `pnc@myworkday.com` with subject `Thank you for your interest in PNC` were not labeled `Jobs`, so the tracker never classified the rejection. Later misses included Criteria Corp/Rokt assessment reminders, IBM Talent Acquisition/Avature confirmations, Greenhouse security-code/application emails, Leidos Workday application/rejection messages, and DEKA/ApplyToJob `we've received your resume`. Future automation should not depend only on obvious subject keywords. It should broadly inspect ATS/portal/assessment/recruiter/company-domain emails, vague job-related subjects like `thank you for your interest`, `your submission`, `candidate profile`, `application status`, `security code`, `complete the next steps`, `reminder`, `we've received your resume`, `resume received`, and existing tracker company names/requisition IDs. For job-related operational mail, over-labeling as `Jobs` is acceptable; missing rejections/interviews/verification/assessment reminders/application confirmations is worse.
+PNC exposed an important retrieval bug: Workday emails from `pnc@myworkday.com` with subject `Thank you for your interest in PNC` were not retrieved, so the tracker never classified the rejection. Later misses included Criteria Corp/Rokt assessment reminders, IBM Talent Acquisition/Avature confirmations, Greenhouse security-code/application emails, Leidos Workday application/rejection messages, and DEKA/ApplyToJob `we've received your resume`. Future automation should not depend only on obvious subject keywords. It should broadly inspect ATS/portal/assessment/recruiter/company-domain emails, vague job-related subjects like `thank you for your interest`, `your submission`, `candidate profile`, `application status`, `security code`, `complete the next steps`, `reminder`, `we've received your resume`, `resume received`, and existing tracker company names/requisition IDs. However, broad retrieval must not automatically apply the `Jobs` label. Apply `Jobs` only after classification confirms the message is job-search related, such as an application confirmation, rejection, interview, assessment, recruiter follow-up, verification step, or status update.
 
 LinkedIn exposed a second bug shape: its rejection emails can look like neutral updates in the subject, such as `Your application to <role> at <company>` or `Your update from <company>`, while the body and URL template clearly indicate rejection. The automation must explicitly retrieve and classify LinkedIn Jobs templates such as `email_jobs_application_rejected_01` and `eml-email_jobs_application_rejected_01`, and it must move an existing application to Trash when one of those emails says `Unfortunately, we will not be moving forward with your application`. Known misses included Envision Technology Solutions, Next Gen Software Solutions LLC, Red Oak Technologies, Sibitalent Corp, and SoTalent.
 
