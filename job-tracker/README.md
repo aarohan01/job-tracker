@@ -128,6 +128,8 @@ Important scan rules:
 - scan from `meta.lastSuccessfulScanAt - meta.incrementalScanOverlapDays` through now for incremental runs
 - scan from `meta.scanWindowStart` for full runs
 - broad Gmail search candidates should not be labeled automatically; apply the `Jobs` label only after classification confirms the message is job-search related
+- `rhasabni@asu.edu` is a forwarded ASU address for the user; include job-search emails sent to it
+- Handshake `Application sent to ...` emails are application confirmations; Handshake `New ... at ...` recommendation emails are suggestions and should not create rows
 - after success, update `meta.lastSuccessfulScanAt`, reset `meta.nextScanMode` to `incremental`, and clear `meta.fullScanRequestedAt`
 
 ## Tests

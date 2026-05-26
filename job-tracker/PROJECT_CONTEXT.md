@@ -109,12 +109,15 @@ The daily Codex automation should:
 - update JSON with revision protection
 - email a concise summary as `JOB report - YYYY-MM-DD`
 - do not generate or attach `Job Application Tracker.xlsx` during the daily automation
+- treat `rhasabni@asu.edu` as the user's forwarded ASU email address; messages sent to that address are still the user's job-search mail and should not be ignored because the `to` address differs
 
 Known rejection examples that must be caught include GlossGenius, Brillio, and GraceMark Solutions.
 
 PNC exposed an important retrieval bug: Workday emails from `pnc@myworkday.com` with subject `Thank you for your interest in PNC` were not retrieved, so the tracker never classified the rejection. Later misses included Criteria Corp/Rokt assessment reminders, IBM Talent Acquisition/Avature confirmations, Greenhouse security-code/application emails, Leidos Workday application/rejection messages, and DEKA/ApplyToJob `we've received your resume`. Future automation should not depend only on obvious subject keywords. It should broadly inspect ATS/portal/assessment/recruiter/company-domain emails, vague job-related subjects like `thank you for your interest`, `your submission`, `candidate profile`, `application status`, `security code`, `complete the next steps`, `reminder`, `we've received your resume`, `resume received`, and existing tracker company names/requisition IDs. However, broad retrieval must not automatically apply the `Jobs` label. Apply `Jobs` only after classification confirms the message is job-search related, such as an application confirmation, rejection, interview, assessment, recruiter follow-up, verification step, or status update.
 
 LinkedIn exposed a second bug shape: its rejection emails can look like neutral updates in the subject, such as `Your application to <role> at <company>` or `Your update from <company>`, while the body and URL template clearly indicate rejection. The automation must explicitly retrieve and classify LinkedIn Jobs templates such as `email_jobs_application_rejected_01` and `eml-email_jobs_application_rejected_01`, and it must move an existing application to Trash when one of those emails says `Unfortunately, we will not be moving forward with your application`. Known misses included Envision Technology Solutions, Next Gen Software Solutions LLC, Red Oak Technologies, Sibitalent Corp, and SoTalent.
+
+Handshake exposed a third bug shape: Handshake application confirmations sent from `handshake@notifications.joinhandshake.com` to `rhasabni@asu.edu` can be missed even though the ASU address forwards to the current mailbox. Search Handshake explicitly with queries like `from:handshake@notifications.joinhandshake.com "Application sent to"` and body text `Your application was sent to`. Classify those as application confirmations with `source: "Handshake"` and create/update application rows. Do not treat Handshake recommendation emails as applications: subjects like `New <role> at <company>`, body text such as `Apply early to stand out`, `You might be a match`, or `Apply to similar jobs` alone are job suggestions and should not create tracker rows.
 
 ## User Preferences
 
